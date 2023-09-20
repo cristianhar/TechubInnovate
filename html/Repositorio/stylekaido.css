@@ -1,0 +1,166 @@
+*{
+    margin: 0;/*margen de afuera*/
+    padding: 0;/*margen de adentro*/
+}
+
+.menu{
+    
+    border: 1px solid black;
+    height: 90px;/*Ancho de el margen*/ 
+    display: flex;/*posiciona un elemento uno al lado del otro al lado del otro*/
+    background-color: #015281; 
+    justify-content: space-evenly; /*Hace separacion de los elementos*/
+    /*box-shadow:  3px 3px 10px 3px #f444;*/
+    -webkit-box-shadow: 10px 10px 100px 0px rgba(29,240,29,0.63);
+    -moz-box-shadow: 10px 10px 100px 0px rgba(29,240,29,0.63);
+    box-shadow: 10px 10px 100px 0px rgba(29,240,29,0.63);
+
+}
+
+li{
+    cursor: pointer;
+    margin-top: 30px; /*Mueve las letras del margen hacia el centro*/ 
+    list-style: none;/*quita las viñetas*/
+    font-size: 30px; /*tamaño de letra*/
+    color: white; /*Color de letrA*/
+    font-family: Arial, Helvetica, sans-serif;/*Tipo de LetrA*/
+    
+}
+.btn-inicio{
+    
+    
+    margin-bottom: 25px;
+    background-color: #015389;
+    width: 150px;
+    padding: 0px 0px 1px 5px;
+    border-radius: 20px;
+    text-align: center;
+    
+    
+}
+.nosotros{
+
+    width: 300px;
+
+}
+
+.btn-inicio:hover{
+    background-color: #183D3D;
+    color : aliceblue;
+    width : 200px;
+
+}
+
+footer {
+    background-color: #333; /* Cambia el color de fondo a tu preferencia */
+    color: #fff; /* Cambia el color del texto a tu preferencia */
+    padding: 20px;
+    text-align: center;
+}
+
+.img{
+
+/*width: 1350px;Poderosisima resolucion HD 4K*/
+width: 500px;
+}
+.img2{
+
+    /*width: 1350px;Poderosisima resolucion HD 4K*/
+    width: 300px;
+    border: 3px solid cyan;
+    }
+
+.img3{
+
+    /*width: 1350px;Poderosisima resolucion HD 4K*/
+    width: 700px;
+    border: 3px solid cyan;
+    }
+
+.primera-seccion{
+    margin-top: 40px;
+    display: flex; /* Pone un elemento al lado del otro */
+    align-items: center; /* Cente el texto de la imagen */
+    justify-content: center;
+}
+
+.texto{
+width: 900px;
+/* border: 1px solid #333; Para ponerle un margen mi so */
+margin-left: 30px;
+font-size: 30px;
+}
+
+.segunda-seccion{
+    background-image: url("img/background.jpg");
+    background-color: #015281;
+    
+    height: 500px;
+}
+
+h1{
+    margin-top: 20px;
+    text-align: center;
+}
+.titulo{
+    
+    opacity: 70%;
+    box-shadow:  3px 1px 1px 1px black;
+    background-color: #015389;
+    font-size: 30px;
+    border: 1px solid black;
+    color: rgb(0, 0, 0); /*Color de letrA*/
+    font-family: Arial, Helvetica, sans-serif;/*Tipo de LetrA*/
+
+
+
+}
+.titulo-secundario{
+    
+    opacity: 70%;
+    box-shadow:  100px 2px 100px 0px black;
+  
+    font-size: 30px;
+    color: rgb(0, 0, 0); /*Color de letrA*/
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;/*Tipo de LetrA*/
+
+
+
+}
+.tripulacion-personajes{
+
+ justify-content: space-evenly;
+ width: 1350px;
+ display: flex;
+ 
+ 
+}
+
+.tripulacion-personajes2{
+
+    justify-content: space-evenly;
+    width: 1350px;
+    display: flex;
+    margin-top: 0px;
+    
+    
+   }
+.subtitulo{
+    display: flex ;
+    opacity: 90%;
+    width: 1350px;
+    background-color: #2884b9; 
+    justify-content: center;
+    
+}
+
+.subtitulo2{
+    margin-top: 30px;
+    display: flex ;
+    opacity: 90%;
+    width: 1350px;
+    justify-content: center;
+    background-color: #2884b9; 
+}
+
