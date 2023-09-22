@@ -1,0 +1,300 @@
+*{
+    margin: 0;/*margen de afuera*/
+    padding: 0;/*margen de adentro*/ 
+    
+}
+
+
+
+.categoria{
+    position: absolute;
+    margin-top: 200px;
+    background-color: transparent;
+
+}
+
+.Logo{
+    width: 150px; 
+    height: 100px; 
+    left: 10px; 
+    top: 20px ;
+    cursor: pointer;
+    position: absolute;
+}
+.nombreoficial{
+    left: 196px; 
+    top: 38px; 
+    cursor: pointer;
+    position: absolute;
+    font-size: 50px;
+    letter-spacing: 2.5px;
+
+}
+.bordesuperior{
+    width: 1912px; 
+    height: 0px; 
+    left: 0px; 
+    top: 139px; 
+    position: absolute; 
+    background-color: #7E5CC7;
+    border: 4px #7E5CC7 solid;
+    
+}
+
+
+.bordeinferior{
+   width: 1912.8px; height: 0px; left: 0px; top: 0px; position: absolute; border: 4px #7E5CC7 solid;
+   
+}
+
+.imgusuario
+{
+    width: 197px; height: 88px; left: 1723px; top: 14px; position: absolute; mix-blend-mode: overlay;
+}
+.menu{
+   
+    
+    width: 1920px;
+    height: 139px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #C4C3F3;
+
+
+
+
+}
+
+li{
+    text-align: right;
+    cursor: pointer;
+    margin-top: 85px; /*Mueve las letras del margen hacia el centro*/ 
+    list-style: none;/*quita las viñetas*/
+    font-size: 20px; /*tamaño de letra*/
+    color: white; /*Color de letrA*/
+    font-family: Arial, Helvetica, sans-serif;/*Tipo de LetrA*/
+    
+}
+
+.login
+{
+    left: 1780px;
+    top: 100px;
+    cursor: pointer;
+    position: absolute;
+    color: #565078; 
+    font-size: 15px; 
+    font-family: Acme; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.logeo{
+margin-top: 100px;
+}
+
+.login:hover{
+color: white;}
+.btn-inicio{
+    
+    
+    left: 917px;
+    top: 38px; 
+    cursor: pointer;
+    position: absolute; 
+    color: #A293CB; 
+    font-size: 50px; 
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400; 
+    word-wrap: break-word;
+    
+}
+.btn-tienda{
+    left: 1070px;
+    top: 38px; 
+    cursor: pointer;
+    position: absolute; 
+    color: #A293CB; 
+    font-size: 50px; 
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.btn-servicios{
+    left: 1239px;
+    top: 38px; 
+    cursor: pointer;
+    position: absolute; 
+    color: #A293CB; 
+    font-size: 50px; 
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.btn-contacto{
+    left: 1445px;
+    top: 38px; 
+    cursor: pointer;
+    position: absolute; 
+    color: #A293CB; 
+    font-size: 50px; 
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.container{
+
+    width: 1920px;
+    justify-content: space-evenly;
+    display: flex;
+    align-content: center;
+
+  
+
+}
+
+.img
+{
+
+
+    height: 294px;
+    justify-content: space-between;
+    width: 1920px;
+    display: flex;
+    margin-left: 500px;
+
+    
+    
+   
+        
+
+}
+.container-img{
+
+    width: 1920px;
+    height: 294px;
+ 
+    justify-content: space-evenly;
+    display: flex;
+    align-content: center;
+   }    
+
+h1.subtitulos{
+margin-top: 60px;
+margin-left: 390px;
+}
+h1.subtitulosdos{
+margin-top: 100px;
+margin-left: 250px;
+}
+h1.subdosdos{
+    margin-top: 100px;
+    margin-right: 210px;
+    }
+h1.subdos{
+    margin-top: 60px;
+    margin-right: 520px;
+    }
+
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(180deg, #707DF6 0%, rgba(255, 178, 178, 0.00) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main{
+    flex-grow: 1;
+
+}
+
+.subtitulos{
+    
+justify-content: space-between;
+display: flex;
+margin-left: 570px;
+
+width: 1920px;
+
+
+}
+
+
+
+
+
+
+.separacionuno{
+    text-align: center;
+    height: 380px;
+    margin-top: 60px;
+    width: 380px;
+   
+    
+    
+    }
+
+.separaciondos{
+    text-align: center;
+
+    height: 380px;
+    margin-top: 60px;
+    width: 380px;
+        
+    
+    }
+.separaciontres{
+    text-align: center;
+
+    height: 380px;
+    margin-top: 60px;
+    width: 380px;
+    
+    
+    
+    }
+
+
+
+h1{
+color:#7E5CC7;
+font-size: 30px;
+}
+
+.btn-inicio:hover{
+    color : aliceblue;
+
+}
+.btn-tienda:hover{
+    color : aliceblue;
+}
+.btn-servicios:hover{
+    color : aliceblue;
+}
+.btn-contacto:hover{
+    color : aliceblue;
+}
+
+.piedepagina{
+    width: 1900px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px; 
+    position: fixed;
+    background: rgba(195.62, 194.65, 243.31, 0.80)
+}
+
+.img2{
+    height: 100px;
+
+}
+
