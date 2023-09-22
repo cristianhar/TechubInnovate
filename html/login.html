@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Techub Innovate | Servicios</title>
-    <link rel="icon" href="/img/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <title>Techub Innovate | Iniciar Sesión</title>
+    <link rel="icon" href="/img/icon.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -21,51 +21,33 @@
             <div class="btn-tienda" onclick="window.location.href = 'tienda.html';">Tienda</div>
             <div class="btn-contacto" onclick="window.location.href = 'contacto.html';">Contacto</div>
             <img class="imgusuario" src="/img/usuario.png" />
+            <!-- Cambiamos el texto del botón de Iniciar Sesión -->
             <div class="login" onclick="window.location.href = 'login.html';"><b>Iniciar Sesión</b></div>
+           
         </div>
     </header>
+
     <main>
-    <div class="bordesuperior"> 
-   
-        <section class="container">
-
-            
-          <h1 class="subtitulos"> <b>MANTENIMIENTO</b></h1> 
-            
-            <h1 class="subdos"> <b>PRODUCTOS</b></h1>
-    
-
-        </section>
-
-        <section class="container-img">
-
-
-            <img  src="/img/pcmantenimiento.png"" alt="">
-            <img src="/img/recover-enything-3.png"" alt="">
-        </section>
         
-
-
+        <div class="bordesuperior">
         <section class="container">
-
-            
-            <h1 class="subtitulosdos"> <b>ENSEÑANZA</b></h1> 
-              
-             <br><br><br> <h1 class="subdosdos"> <b>LABORATORIO</b></h1>
-      
-  
-          </section>
-  
-          <section class="container-img">
-  
-  
-              <img  src="/img/asian.jpeg"" alt="" width="300" height="200">
-              <img src="/img/laboratory.jpg"" alt=""  width="300" height="200">
-          </section>
-            
+            <div class="logeo">
+            <h1><b>Iniciar Sesión</b></h1>
+            <form action="procesar_login.php" method="POST"> <!-- Ajusta la acción y el método según tu configuración -->
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" name="usuario" required>
+                
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+                
+                <button type="submit">Iniciar Sesión</button>
+            </form></div>
+        </section>
     </main>
+
     <div class="piedepagina">
         <div class="bordeinferior"></div>
+    
         <footer>
             <p>&copy; 2023 Techub Innovate</p>
         </footer>
